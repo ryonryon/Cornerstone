@@ -1,28 +1,20 @@
-import java.util.Scanner;
+package week1.ForLoops;
 
 public class FizzBuzz{
     public static void main(String[] args) {
-
-        Scanner scn = new Scanner(System.io);
-        int maxVal = scn.nextInt();
         
-        for(int i = 1; i <= maxVal; i++) {
+        for(int i = 1; i <= 100; i++) {
             String outputWord = "";
             if(i % 3 == 0) {
                 outputWord += "Fizz";
             }
-            if(i % 5 == 0) {
+            if(i % 5 ==0) {
                 outputWord += "Buzz";
             }
             if(outputWord.equals("")) {
                 outputWord += Integer.toString(i); 
             }
-            if(i % 20 == 0) {
-                System.out.println(outputWord);
-                continue;
-            }
-            System.out.printf(outputWord + " ");
+            System.out.println(outputWord);
         }
-        scn.close();
     }
 }

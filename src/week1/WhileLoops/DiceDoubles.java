@@ -1,3 +1,5 @@
+package week1.WhileLoops;
+
 import java.util.Random;
 
 public class DiceDoubles{

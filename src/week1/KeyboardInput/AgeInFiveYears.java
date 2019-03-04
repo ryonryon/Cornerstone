@@ -1,3 +1,5 @@
+package week1.KeyboardInput;
+
 import java.util.Scanner;
 
 public class AgeInFiveYears {
@@ -12,7 +14,9 @@ public class AgeInFiveYears {
         int userAgePlusFive = userAge + 5;
         int userAgeMinusFive = userAge + 5;
 
-        System.out.println(Sting.format("Did you know that in five years you will be %d years old?", userAgePlusFive));
+        System.out.println(String.format("Did you know that in five years you will be %d years old?", userAgePlusFive));
         System.out.println(String.format("And five years ago you were %d! Imagine that!", userAgeMinusFive));
+
+        scanner.close();
     }
 }

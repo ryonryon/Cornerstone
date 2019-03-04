@@ -1,3 +1,5 @@
+package week1.IfStatements;
+
 import java.util.Scanner;
 
 public class HowOldAreYouSpecifically {

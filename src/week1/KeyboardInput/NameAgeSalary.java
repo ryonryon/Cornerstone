@@ -1,3 +1,5 @@
+package week1.KeyboardInput;
+
 import java.util.Scanner;
 
 public class NameAgeSalary{

@@ -1,23 +1,25 @@
-public class Rectangle extends Square{
+package week1.Classes;
+
+public class Rectangle {
 
     private int width;
     private int height;
     private String color;
     
 
-    Rectangle(int width, int height){
+    public Rectangle(int width, int height){
 
         setWidth(width);
         setHeight(height);
     }
-    Rectangle(int width, int height, String color){
+    public Rectangle(int width, int height, String color){
 
         setWidth(width);
         setHeight(height);
         setColor(color);
     }
 
-    public setWidth(int width){
+    public void setWidth(int width){
         this.width = 1;
 
         if(0 < width) {
@@ -25,7 +27,7 @@ public class Rectangle extends Square{
         }
     }
 
-    public setHeight(int height){
+    public void setHeight(int height){
         this.height = 1;
 
         if(0 < height) {
@@ -33,23 +35,19 @@ public class Rectangle extends Square{
         }
     }
 
-    public setColor(String color) {
+    public void setColor(String color) {
         this.color = "Blue";
         
-        if(2 <= color.length && Character.isUpperCase(color.charAt[0])) {
+        if(2 <= color.length() && Character.isUpperCase(color.charAt(0))) {
             this.color = color;
         }
     }
 
-    public draw() {
-        String rectangleColor = this.color.charAt[0];
+    public void draw() {
 
-        for(int i = 0; i <= this.height; i++) {
-
-            for(int j = 0; j <= this.width; j++) {
-                
-            }
-        }
+        System.out.println(this.width);
+        System.out.println(this.height);
+        System.out.println(this.color);
     }
 
 

@@ -1,4 +1,4 @@
-package Week1.Valuables;
+package week1.Variables;
 
 public class StillUsingVariables{
     public static void main(String[] args) {

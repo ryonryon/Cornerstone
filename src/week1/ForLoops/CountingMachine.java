@@ -1,3 +1,5 @@
+package week1.ForLoops;
+
 import java.util.Scanner;
 
 public class CountingMachine{

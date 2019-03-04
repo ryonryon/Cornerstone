@@ -1,8 +1,8 @@
-package Week1.Valuables;
+package week1.Variables;
 
 public class YourSchedule{
     public static void main(String[] args) {
-        // TODO
+        
         String classAndTeacherList[][] = {
             {"ESL5.0", "Chad"},
             {"ESL6.0", "Arareh"},

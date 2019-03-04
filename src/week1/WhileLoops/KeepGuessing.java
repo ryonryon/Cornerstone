@@ -1,3 +1,5 @@
+package week1.WhileLoops;
+
 import java.util.Scanner;
 import java.util.Random;
 

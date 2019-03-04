@@ -1,3 +1,5 @@
+package week1.IfStatements;
+
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
