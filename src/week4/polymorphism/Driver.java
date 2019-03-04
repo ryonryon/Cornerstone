@@ -14,5 +14,7 @@ public class Driver {
         for(Shape shape: shapes) {
             shape.draw();
         }
+
+        s1.hello();
     }
 }
