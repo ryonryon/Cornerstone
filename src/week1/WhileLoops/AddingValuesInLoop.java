@@ -1,4 +1,4 @@
-package week1.WhileLoops;
+package week1.whileloops;
 
 import java.util.Scanner;
 

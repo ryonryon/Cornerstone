@@ -1,4 +1,4 @@
-package week1.ForLoops;
+package week1.forloops;
 
 public class FizzBuzz{
     public static void main(String[] args) {

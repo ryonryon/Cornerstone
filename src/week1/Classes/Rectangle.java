@@ -1,4 +1,4 @@
-package week1.Classes;
+package week1.classes;
 
 public class Rectangle {
 

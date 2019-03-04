@@ -1,4 +1,4 @@
-package week1.ForLoops;
+package week1.forloops;
 
 import java.util.Scanner;
 

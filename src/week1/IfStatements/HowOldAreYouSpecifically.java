@@ -1,4 +1,4 @@
-package week1.IfStatements;
+package week1.ifstatements;
 
 import java.util.Scanner;
 
