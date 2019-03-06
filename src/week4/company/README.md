@@ -1,6 +1,8 @@
 <!-- 
-    for deep understand Object-Oriented programming or Object-Oriented Design.
+    note
     
+    for deep understand Object-Oriented programming or Object-Oriented Design.
+
     * abstract classes
     - a class + abstract methods.
     - abstract methods: methods without implementation.
